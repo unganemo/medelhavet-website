@@ -24,7 +24,7 @@ const Sidebar = ({isOpen, toggle}) => {
                     spy={true} 
                     exact='true' 
                     offset={-60}
-                    onClick={toggle}>Butik</SidebarLink>
+                    onClick={toggle}>Butiken</SidebarLink>
                     <SidebarLink 
                     to='garden' 
                     smooth={true} 
@@ -32,7 +32,7 @@ const Sidebar = ({isOpen, toggle}) => {
                     spy={true} 
                     exact='true' 
                     offset={-60}
-                    onClick={toggle}>Trädgård</SidebarLink>
+                    onClick={toggle}>Trädgården</SidebarLink>
                     <SidebarLink 
                     to='contact' 
                     smooth={true} 
