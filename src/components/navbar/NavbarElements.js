@@ -37,9 +37,6 @@ export const NavTimes = styled.h2`
     margin-left: 24px;
     font-weight: bold;
     text-decoration: none;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 1);
-    text-shadow: ${({scrollNav}) => (scrollNav ? '0 0 0px rgba(0, 0, 0, 0)' : '0 0 10px rgba(0, 0, 0, 1)')};
-    transition: 0.3s all ease;
 
     @media screen and (max-width: 480px) {
         display: none;
@@ -86,11 +83,10 @@ export const NavLinks = styled(Link)`
     height: 100%;
     cursor: pointer;
     font-size: 1.2rem;
-
+    
     &.active {
         border-bottom: 3px solid #fff;
     }
-    
 `;
 
 

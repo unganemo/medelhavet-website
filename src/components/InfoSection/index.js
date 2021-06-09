@@ -30,7 +30,6 @@ const Info = ({lightBg, id, imgStart, darkText, description, img, alt}) => {
                     </InfoRow>
                 </InfoWrapper>
             </InfoContainer>
-            
         </>
     )
 }

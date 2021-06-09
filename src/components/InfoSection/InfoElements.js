@@ -34,17 +34,16 @@ export const InfoRow = styled.div`
 
 export const Column1 = styled.div`
     margin: 50px;
-    paddding: 0 15px;
     grid-area: col1;
 
     @media screen and (max-width: 768px) {
         margin: 0px;
+        margin-bottom: 50px;
     }
 `
 
 export const Column2 = styled.div`
-margin: 50px;
-    paddding: 0 15px;
+    margin: 50px;
     grid-area: col2;
 `
 
@@ -58,9 +57,9 @@ export const TextWrapper = styled.div`
 export const Subtitle = styled.p`
     width: 100%;
     height: 100%;
-    margin-bottom: 35px;
-    font-size: 18px;
-    line-height: 24px;
+    margin-bottom: 0px;
+    font-size: 1.2rem;
+    line-height: 28px;
     justify-content: center;
     color: ${({darkText}) => (darkText ? '#2C2C2C' : '#ECF7FF')};
 `
