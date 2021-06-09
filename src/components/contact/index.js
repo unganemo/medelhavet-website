@@ -6,34 +6,14 @@ import {
     ContactDescWrap, 
     ContactDescr,
     ContactIconWrap,
-    ContactIcon} 
-    from './ContectElements'
-import Linking from 'react'
+    ContactIcon
+} from './ContactElements'
 
-const Contact = ({id, title, description1, description2, twitterUsername}) => {
+const Contact = ({id, title, description1, description2}) => {  
+    const ButtonMailto = () => {
+        window.open('mailto:info@enlitenbit.se?subject=Ämnesrad%20här&body=Mailtext%20här')
+    };
 
-    const twitterUrlScheme = `twitter://user?screen_name=${twitterUsername}`;
-
-    const goInstagram = () => {
-        
-    }
-    
-    const goFacebook = () => {
-        Linking.canOpenURL(twitterUrlScheme)
-    .then((supported) =>
-        Linking.openURL(
-            supported
-                ? twitterUrlScheme
-                : `https://www.twitter.com/${twitterUsername}`
-            )
-        )
-        .catch((err) => console.error('An error occurred', err));
-    }
-
-    const goMail = () => {
-
-    }
-    
     return (
         <ContactContainer id={id}>
             <ContactHeadWrap>
@@ -46,18 +26,24 @@ const Contact = ({id, title, description1, description2, twitterUsername}) => {
             <ContactIconWrap>
             <ContactIcon 
                 url="https://www.instagram.com/enlitenbitavmedelhavet" 
-                bgColor='#fff' 
-                fgColor='#3B9CFF'
+                bgColor='#2196F3' 
+                fgColor='#fff'
+                target="_blank" 
+                rel="noopener noreferrer"
                 ></ContactIcon>
                 <ContactIcon 
                 url="https://www.facebook.com/enlitenbitavmedelhavet" 
-                bgColor='#fff' 
-                fgColor='#3B9CFF'
+                bgColor='#2196F3' 
+                fgColor='#fff'
+                target="_blank" 
+                rel="noopener noreferrer"
                 ></ContactIcon>
                 <ContactIcon 
-                url="info@enlitenbit.se" 
-                bgColor='#fff' 
-                fgColor='#3B9CFF'
+                network='email'
+                bgColor='#2196F3' 
+                fgColor='#fff'
+                onClick={ButtonMailto}
+                style={{cursor:'pointer'}}
                 ></ContactIcon>
             </ContactIconWrap>
         </ContactContainer>

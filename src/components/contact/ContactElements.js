@@ -2,9 +2,9 @@ import styled from 'styled-components'
 import { SocialIcon } from 'react-social-icons'
 
 export const ContactContainer = styled.div`
-    background: #3B9CFF;
+    background: #ECF7FF;
     height: auto;
-    color: #fff;
+    color: #212121;
     padding: 50px;
 
     @media screen and (max-width: 768px) {
@@ -22,13 +22,13 @@ export const ContactHeadWrap = styled.div`
     margin-left: auto;
     padding: 20px 20px;
     justify-content: center;
-    background: #fff;
+    background: #2196F3;
     
 `
 
 export const ContactHeader = styled.h2`
     font-weight: 200;
-    color: #3B9CFF;
+    color: #fff;
     font-size: 3rem;
 `
 
@@ -45,8 +45,8 @@ export const ContactDescWrap = styled.div`
 `
 
 export const ContactDescr = styled.p`
-    font-size: 1.2rem;
-    margin-bottom: 1.2rem;
+    font-size: 1rem;
+    margin-bottom: 1rem;
     line-height: 28px;
 `
 
@@ -56,14 +56,13 @@ export const ContactIconWrap = styled.div`
     height: auto;
     width: 100%;
     max-width: 550px;
-    margin-top: 2.3rem;
+    margin-top: 2rem;
     margin-right: auto;
     margin-left: auto;
     justify-content: center;
 `
 
 export const ContactIcon = styled(SocialIcon)`
-    font-size: 1.2rem;
     margin-right: 25px;
     margin-left: 25px;
 

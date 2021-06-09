@@ -2,7 +2,7 @@ import styled from 'styled-components'
 
 export const InfoContainer = styled.div`
     color: #fff;
-    background: ${({lightBg}) => (lightBg ? '#ECF7FF' : '#3B9CFF')};
+    background: ${({lightBg}) => (lightBg ? '#ECF7FF' : '#2196F3')};
 
     @media screen and (max-width: 768px) {
         padding: 100 0;
@@ -58,10 +58,10 @@ export const Subtitle = styled.p`
     width: 100%;
     height: 100%;
     margin-bottom: 0px;
-    font-size: 1.2rem;
+    font-size: 1rem;
     line-height: 28px;
     justify-content: center;
-    color: ${({darkText}) => (darkText ? '#2C2C2C' : '#ECF7FF')};
+    color: ${({darkText}) => (darkText ? '#212121' : '#FFF')};
 `
 
 export const ImgWrap = styled.div`

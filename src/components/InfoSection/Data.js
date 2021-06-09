@@ -34,3 +34,14 @@ export const gardenObj = {
     alt: 'Trädgården',
     darkText: true
 }
+
+export const cafeObj = {
+    id: 'cafe',
+    lightBg: false,
+    title: 'café',
+    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rutrum dui lorem, eu blandit felis fringilla sed. Fusce ultrices vitae ante at ultrices. Ut eleifend, dui feugiat iaculis elementum, ipsum felis scelerisque sapien, sed sodales lorem orci sit amet tortor. Vivamus lacinia nibh gravida elementum mollis. Nunc convallis mi ut finibus laoreet',
+    imgStart: false,
+    img: garden,
+    alt: 'Café',
+    darkText: false
+}

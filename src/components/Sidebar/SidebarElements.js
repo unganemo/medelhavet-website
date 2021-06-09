@@ -7,7 +7,7 @@ export const SidebarContainer = styled.aside`
     z-index: 999;
     width: 100%;
     height: 100%;
-    background: #3B9CFF;
+    background: #1976D2;
     display: grid;
     align-items: center;
     top: 0;
@@ -55,8 +55,8 @@ export const SidebarLink = styled(Link)`
 
 export const SidebarMenu = styled.ul`
     display: grid;
-    grid-template-column: 1fr;
-    grid-template-rows: repeat(6, 80px);
+    grid-template: column 1fr;
+    grid-template-rows: repeat(6, 60px);
     text-align: center;
 `
 

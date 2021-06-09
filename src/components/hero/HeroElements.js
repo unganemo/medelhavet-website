@@ -27,7 +27,7 @@ export const HeroBG = styled.div`
 `
 
 export const HeroContentWrap = styled.div`
-    background: rgba(59, 156, 255, 0.75);
+    background: rgba(3, 169, 244, 0.75);
     z-index: 5;
     max-width: 1100px;
     position: absolute;
@@ -110,12 +110,12 @@ export const arrowButtons = css`
     height: 50px;
     color: #fff;
     cursor: pointer;
-    background: #3B9CFF;
+    background: #03A9F4;
     border-radius: 50px;
     padding: 10px;
     user-select: none;
     transition: 0.3s;
-    opacity: 0.75;
+    opacity: 0.85;
     margin: 1rem;
 `
 

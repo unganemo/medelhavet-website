@@ -34,6 +34,14 @@ const Sidebar = ({isOpen, toggle}) => {
                     offset={-60}
                     onClick={toggle}>Trädgården</SidebarLink>
                     <SidebarLink 
+                    to='cafe' 
+                    smooth={true} 
+                    duration={500} 
+                    spy={true} 
+                    exact='true' 
+                    offset={-60}
+                    onClick={toggle}>Café</SidebarLink>
+                    <SidebarLink 
                     to='contact' 
                     smooth={true} 
                     duration={500} 
