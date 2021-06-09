@@ -5,7 +5,7 @@ import garden from '../../images/garden.png'
 export const aboutObj = {
     id: 'about',
     lightBg: true,
-    title: 'Om oss',
+    title: 'om oss',
     description: 'En liten bit av Medelhavet är en trädgård och butik i Hammenhög på Österlen som drivs av familjen Karakitsos. Resan med En liten bit av Medelhavet började för 16 år sedan då vi köpte fastigheten där vår butik idag huserar. Då var trädgården bortglömd och vildvuxen och väldigt olik den trädgård vi har idag. Första sommaren vigdes åt underarbete. Vi plockade sten, kirskål och fällde självsådda träd – därefter fick vi kväva resterande ogräs innan vi kunde lägga in ny jord. Efterföljande år fortsatte arbetet med att anlägga trädgården. Då Vasilis är från Grekland fanns redan tidigt en tanke om att i trädgården driva upp växter från Medelhavet. Samma år fick Vasilis en vinranka och ett fikonträd i födelsedagspresent av Diane. Denna första vinranka är samma vinranka som idag sträcker sig långt upp över husfasad och balkong och som fick bli grunden till trädgårdens övriga vinrankor. År 2007 öppnade vi En liten bit av Medelhavet, butik och visningsträdgård och sedan dess har vår trädgård och butik vuxit organiskt.',
     imgStart: true,
     img: about,

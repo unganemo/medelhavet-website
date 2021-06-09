@@ -17,7 +17,7 @@ export const ContactHeadWrap = styled.div`
     z-index: 1;
     height: auto;
     width: 100%;
-    max-width: 300px;
+    max-width: 550px;
     margin-right: auto;
     margin-left: auto;
     padding: 20px 20px;

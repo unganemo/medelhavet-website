@@ -1,4 +1,5 @@
 import React from 'react'
+import HeaderImg from './HeaderImg'
 import { 
     InfoContainer,
     InfoWrapper,
@@ -11,7 +12,7 @@ import {
     Img
   } from './InfoElements'
 
-const Info = ({lightBg, id, imgStart, darkText, description, img, alt}) => {
+const Info = ({lightBg, id, imgStart, darkText, description, img, alt, title}) => {
     return (
         <>
             <InfoContainer lightBg={lightBg} id={id}>
@@ -24,7 +25,7 @@ const Info = ({lightBg, id, imgStart, darkText, description, img, alt}) => {
                         </Column1>
                         <Column2>
                             <ImgWrap>
-                                <Img src={img} alt={alt}/>
+                                <HeaderImg img={img} alt={alt} darkText={darkText} lightBg={lightBg} title={title}/>
                             </ImgWrap>
                         </Column2>
                     </InfoRow>
